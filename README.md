@@ -1,18 +1,25 @@
-# Population Reporting System
+ Population Reporting System
 
-## Project Overview
-This project is a population reporting system. It uses a C# backend with SQL Server as the database. The backend is exposed via an ASP.NET Core Web API.
+ 📌 Project Overview
+This is a **desktop-based population reporting system** developed in **C# (WinForms)** with **SQL Server** as the backend database. The application generates detailed reports about population, countries, cities, and languages, as per real-world reporting needs.
 
-## Getting Started
+  Technologies Used
+- C# (.NET Framework or .NET Core) – WinForms GUI
+- SQL Server
+- Docker (for containerized SQL setup)
+- Git & GitHub (for version control)
+- GitHub Actions (CI/CD - setup in progress)
 
-### Prerequisites
-- Docker
-- .NET Core SDK for building backend
-- Docker Compose for managing containers
+ Getting Started
 
-### Running the Backend and Database
-1. Clone this repository.
-2. Ensure Docker is installed and running.
-3. From the root directory, run the following command to start all services (backend, database):
-   ```bash
-   docker-compose up --build
+ Prerequisites
+- Visual Studio (with .NET Desktop Development workload)
+- SQL Server (local or via Docker)
+- Docker Desktop (optional, for database container)
+- .NET SDK (for WinForms)
+
+ How to Run the Application
+
+ Option 1: Run SQL Server via Docker
+```bash
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrong@Pass123" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
