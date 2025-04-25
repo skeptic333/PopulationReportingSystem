@@ -35,8 +35,8 @@
 ---
 
 ###  Team Roles
- Rana Awais – Scrum Master
- Muavia Saeed – Developer
- Abdullah Javed – Product Owner
- Adil Tahir – Developer
- Awais Khan – Developer
+- Rana Awais – Scrum Master
+ -Muavia Saeed – Developer
+ -Abdullah Javed – Product Owner
+ -Adil Tahir – Developer
+  Awais Khan – Developer
