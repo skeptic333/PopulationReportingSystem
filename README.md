@@ -1,20 +1,18 @@
-# PopulationReportingSystem
-GroupProject
 # Population Reporting System
 
 ## Project Overview
-This is a population reporting system that allows users to view and report population statistics by country. The system consists of a C# backend API and a web frontend built with [React/Angular/etc.].
+This project is a population reporting system. It uses a C# backend with SQL Server as the database. The backend is exposed via an ASP.NET Core Web API.
 
 ## Getting Started
 
 ### Prerequisites
 - Docker
-- .NET Core (for backend)
-- Node.js and npm (for frontend)
+- .NET Core SDK for building backend
+- Docker Compose for managing containers
 
-### Running the Backend
-
-1. Navigate to the `backend/` directory.
-2. Build the project:
+### Running the Backend and Database
+1. Clone this repository.
+2. Ensure Docker is installed and running.
+3. From the root directory, run the following command to start all services (backend, database):
    ```bash
-   dotnet build
+   docker-compose up --build
