@@ -1,0 +1,13 @@
+<!-- filepath: /Users/macbook/Documents/PopulationReportApp/Population.BusinessLogic/Population.BusinessLogic.csproj -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Remove this line -->
+    <!-- <GenerateAssemblyInfo>false</GenerateAssemblyInfo> -->
+  </PropertyGroup>
+
+</Project>
