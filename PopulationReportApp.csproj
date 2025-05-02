@@ -8,12 +8,14 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>osx-arm64</RuntimeIdentifier> <!-- Adjust for your platform -->
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
     <PackageReference Include="Serilog" Version="4.2.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Population.DataAccess\Population.DataAccess.csproj" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Population.DataAccess\Population.DataAccess.csproj" />
