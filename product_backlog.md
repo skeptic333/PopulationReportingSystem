@@ -5,11 +5,19 @@
 ---
 
 ### User Stories
+<<<<<<< HEAD
 1. **As a user**, I want to view a list of all countries sorted by population. (**High Priority**)
 2. **As a user**, I want to search top N populated cities in a given continent. (**High Priority**)
 3. **As a user**, I want to view total population of a region. (**High Priority**)
 4. **As a user**, I want to compare populations of people living in cities vs rural areas. (**Medium Priority**)
 5. **As a user**, I want to generate a report of top languages spoken globally. (**Medium Priority**)
+=======
+1. View a list of all countries sorted by population.
+2. Search top N populated cities in a given continent.
+3. View total population of a region.
+4. Compare city vs rural population.
+5. Generate a report of top languages spoken globally.
+>>>>>>> develop
 
 ---
 
@@ -73,13 +81,23 @@
 
 ### Dependencies
 - Database setup must be completed before implementing `CountryRepository`.
+<<<<<<< HEAD
 - GUI framework (WinForms) must be set up before adding user interface features.
+=======
+- GUI framework must be set up before adding user interface features.
+>>>>>>> develop
 
 ---
 
 ### Team Roles
+<<<<<<< HEAD
 - **Rana Awais** – Scrum Master
 - **Muavia Saeed** – Developer
 - **Abdullah Javed** – Product Owner
 - **Adil Tahir** – Developer
+=======
+- **Adil Tahir** – Scrum Master
+- **Rana Awais** – Product Owner
+- **Muavia Saeed** – Developer
+>>>>>>> develop
 - **Awais Khan** – Developer

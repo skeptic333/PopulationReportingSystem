@@ -5,6 +5,7 @@ namespace Population.Models
         public required string Name { get; set; }
         public long Population { get; set; }
     }
+<<<<<<< HEAD
 }
 
 namespace Population.DataAccess.Repositories
@@ -23,4 +24,6 @@ namespace Population.DataAccess.Repositories
             return _countries;
         }
     }
+=======
+>>>>>>> develop
 }
