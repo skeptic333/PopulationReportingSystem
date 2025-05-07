@@ -1,5 +1,4 @@
-=== TEST STARTED ===
-[5/1/2025 3:51:01PM] ✅ MODEL TEST: Testistan | Pop: 999999
-[5/1/2025 3:51:01PM] ✅ DATAACCESS: Record added successfully
-[5/1/2025 3:51:01PM] 📁 CSV EXPORT: /Users/macbook/Documents/PopulationReportApp/test_data/countries.csv
-[5/1/2025 3:51:01PM] === TEST COMPLETED ===
+Test started
+Model test: Testistan,999999
+CSV export: /Users/macbook/Downloads/PopulationReportApp/test_data/countries.csv
+Test completed
