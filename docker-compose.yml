@@ -3,13 +3,12 @@ version: '1.0'
 services:
   backend:
     image: mcr.microsoft.com/dotnet/core/aspnet:5.0
-<<<<<<< HEAD
     container_name: backend
     build:
       context: ./src
       dockerfile: Dockerfile
     ports:
-      - "5000:80"  # Port mapping
+      - "5000:80"  
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     networks:
@@ -18,19 +17,11 @@ services:
   database:
     image: mcr.microsoft.com/mssql/server:2019-latest
     container_name: sqlserver
-=======
-    ports:
-      - "5000:80"
-
-  database:
-    image: mcr.microsoft.com/mssql/server:2019-latest
->>>>>>> develop
     environment:
       - SA_PASSWORD=YourPassword123!
       - ACCEPT_EULA=Y
     ports:
-<<<<<<< HEAD
-      - "1433:1433"  # SQL Server default port
+      - "1433:1433"  
     networks:
       - app-network
     volumes:
@@ -42,6 +33,3 @@ networks:
 
 volumes:
   sql_data:
-=======
-      - "1433:1433"
->>>>>>> develop
